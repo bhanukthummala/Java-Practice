@@ -1,0 +1,282 @@
+Escape Characters or Escape Sequences
+=====================================
+Escape characters are used to design our output in neat and clean manner.
+
+Every escape character or sequence starts with back slash(\) followed by a character.
+ex:
+	\n
+
+Mostly escape characters are placed inside output statement in java.
+ex:
+	System.out.println("\n");
+
+We have following list of escape characters or escape sequences in java.
+
+1) \n (new line)
+
+2) \t (horizontal tab)
+
+3) \b (back space)
+
+4) \r (carriage return)
+
+5) \f (form feeding)
+
+6) \\ (back slash)
+
+7) \" (double quote)
+
+8) \' (single quote)
+
+and etc.
+
+
+1) \n (new line)
+----------------
+class  Test
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\nTALENT");
+	}	
+} 
+o/p:
+	IHUB
+	TALENT
+
+2) \t (horizontal tab)
+------------------------
+class Akhila
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\tTALENT");
+	}
+}
+o/p:
+	IHUB	TALENT
+
+
+3) \b (back space)
+-------------------
+class Vishnu
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUBTAL\bENT");
+	}	
+}
+o/p:
+	IHUBTAENT
+
+ex:
+----
+class Bharath
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\b\b\bTALENT");
+	}
+}
+o/p:
+	ITALENT
+
+
+4) \r (carriage return)
+------------------------
+class Lahari
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\rTALENT");
+	}
+}
+o/p:
+	TALENT
+
+ex:
+----
+class Anusha
+{
+	public static void main(String[] args)
+	{	
+		System.out.println("TALENT\rIHUB");
+	}
+}
+o/p:
+	IHUBNT 
+
+6) \\ (back slash)
+-------------------
+class Vamshi
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\\TALENT");
+	}
+}
+o/p:
+	IHUB\TALENT
+
+7) \" (double quote)
+--------------------
+class Surya
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB\"TALENT");
+	}
+}
+o/p:
+	IHUB"TALENT
+
+8)\' (single quote)
+--------------------
+class Razvi
+{
+	public static void main(String[] args)
+	{
+		System.out.println("IHUB'TALENT");
+		System.out.println("IHUB\'TALENT");
+	}
+}
+o/p:
+	IHUB'TALENT
+	IHUB'TALENT
+
+
+
+C program
+=========
+Q)Write a c program to display %d ?
+
+void main()
+{
+	clrscr();
+		
+	printf("%d"); //0 
+
+	getch();
+}
+
+ex:
+--
+void main()
+{
+	clrscr();
+		
+	printf("%%d"); //%d
+
+	getch();
+}
+
+Q)What is the difference between Python and Java?
+
+Python					Java
+------					------
+It is developed by Guido Van Rossum.	It is developed by James Gosling.
+
+It is a product of Microsoft.		It is a product of Oracle Corporation.
+
+It is a scripting language.		It is a object oriented programming 
+					language.
+
+It is a interpreted language.		It is a compiled language.
+
+It contains PVM.			It contains JVM.
+
+It is a dynamically typed language.	It is a statically typed language.
+
+Performance is low.			Perfomance is high.
+
+Low security.				Highly secured.
+
+It contains less code.			It contains more code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
